@@ -1,1 +1,1 @@
-# minimalist-rss
+# minimalist-rss-reader
