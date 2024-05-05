@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla RSS</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>RSS Feed</h1>
+      <form>
+        <label>
+          Field
+          <select id="fieldSelect">
+            <option value="">Default sorting</option>
+            <option value="author">Author</option>
+            <option value="publishedDate">Published Date</option>
+            <option value="title">Title</option>
+          </select>
+        </label>
+
+        <label>
+          Order
+          <select id="orderSelect">
+            <option value="">Ascending</option>
+            <option value="-">Descending</option>
+          </select>
+        </label>
+      </form>
+      <div id="rss-feeds"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

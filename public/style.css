@@ -1,0 +1,6 @@
+@import url("https://cdn.jsdelivr.net/npm/water.css@2/out/water.css");
+
+li {
+  list-style-type: none;
+  margin-left: 0;
+}
